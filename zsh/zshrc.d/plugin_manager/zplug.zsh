@@ -7,6 +7,12 @@ zplug romkatv/powerlevel10k, as:theme, depth:1
 zplug "b4b4r07/enhancd", use:init.sh
 zplug "mollifier/cd-gitroot"
 
+# Syntax highlighting
+# zsh-syntax-highlighting must be loaded
+# after executing compinit command and sourcing other plugins
+# (If the defer tag is given 2 or above, run after compinit command)
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
