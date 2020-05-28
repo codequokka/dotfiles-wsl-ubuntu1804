@@ -14,6 +14,7 @@ zplug "mollifier/cd-gitroot"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 # Completion
+zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
 
 # Install plugins if there are plugins that have not been installed
