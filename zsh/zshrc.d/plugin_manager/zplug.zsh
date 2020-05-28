@@ -1,7 +1,7 @@
 source ~/.zplug/init.zsh
 
 # Theme
-# zplug romkatv/powerlevel10k, as:theme, depth:1
+zplug romkatv/powerlevel10k, as:theme, depth:1
 
 # Cd
 zplug "b4b4r07/enhancd", use:init.sh
