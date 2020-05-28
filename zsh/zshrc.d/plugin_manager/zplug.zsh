@@ -13,6 +13,9 @@ zplug "mollifier/cd-gitroot"
 # (If the defer tag is given 2 or above, run after compinit command)
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
+# Completion
+zplug "zsh-users/zsh-autosuggestions"
+
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
