@@ -3,6 +3,7 @@ alias n='nvim'
 
 # Cd
 alias c='cd'
+alias cgr='cd-gitroot'
 
 # Git
 alias g='git'

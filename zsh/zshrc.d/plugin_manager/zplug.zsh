@@ -5,6 +5,7 @@ zplug romkatv/powerlevel10k, as:theme, depth:1
 
 # Cd
 zplug "b4b4r07/enhancd", use:init.sh
+zplug "mollifier/cd-gitroot"
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
