@@ -16,6 +16,7 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 # Completion
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
+zplug "Aloxaf/fzf-tab"
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
